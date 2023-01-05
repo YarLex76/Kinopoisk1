@@ -169,11 +169,11 @@ public class CrudApp {
 
             String filmNane = movie.getName();
 
-            for (Movie movie1: movies){
+         /*   for (Movie movie1: movies){
                 if (movie1.getName().equals(movie.getName())){
                     session.remove(movie1);
                 }
-            }
+            }*/
 
             session.remove(movie);
 
